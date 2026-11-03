@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1220">
+    <meta name="description"
+        content="Contact Ishtiak Ahmed Chowdhury in Cambridge, or try the local contact form demonstration.">
+    <title>Contact | Ishtiak Ahmed Chowdhury</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body><a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="header-inner"><a class="wordmark" href="index.html"
+                aria-label="Ishtiak Ahmed Chowdhury, home">IAC<span>.</span></a><button class="menu-toggle"
+                type="button" aria-expanded="false" aria-controls="primary-navigation"><span>Menu</span><span
+                    class="menu-icon" aria-hidden="true"><span></span><span></span></span></button>
+            <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation"><a
+                    href="index.html">About me</a><a href="interests.html">Interests</a><a
+                    href="portfolio.html">Portfolio</a><a href="project-details.html">Project details</a><a
+                    href="contact.html" aria-current="page">Contact</a></nav>
+        </div>
+    </header>
+    <main id="main" tabindex="-1">
+        <section class="page-intro content-width">
+            <p class="eyebrow">Get in touch</p>
+            <h1>Let’s start a conversation<span class="text-accent">.</span></h1>
+            <p class="lead">For placements, creative work or a conversation about shared interests, I would be happy to
+                hear from you.</p>
+        </section>
+        <section class="section content-width contact-layout">
+            <div class="contact-copy">
+                <p class="eyebrow">Contact details</p>
+                <h2>A good idea starts with hello.</h2>
+                <dl class="contact-details">
+                    <dt>Email</dt>
+                    <dd><a href="mailto:ahmedishtiak050@gmail.com">ahmedishtiak050@gmail.com</a></dd>
+                    <dt>Phone</dt>
+                    <dd><a href="tel:+447440779073">+44 7440 779073</a></dd>
+                    <dt>Location</dt>
+                    <dd>Cambridge, United Kingdom</dd>
+                </dl>
+                <p class="content-note" id="form-help">This is a client-side demonstration. Submitting displays a local
+                    confirmation; it does not send or save your message. To contact me, use the email link above.</p>
+            </div>
+            <form class="contact-form" id="contact-form" action="contact.html" method="get"
+                aria-describedby="form-help">
+                <h2>Leave a message</h2>
+                <p>All fields are required.</p>
+                <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name"
+                        maxlength="100" required aria-describedby="name-error"><span class="field-error"
+                        id="name-error"></span></div>
+                <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email"
+                        autocomplete="email" maxlength="254" required aria-describedby="email-error"><span
+                        class="field-error" id="email-error"></span></div>
+                <div class="field"><label for="message">Comments or questions</label><textarea id="message"
+                        name="message" rows="6" maxlength="3000" required
+                        aria-describedby="message-error"></textarea><span class="field-error" id="message-error"></span>
+                </div><button class="button button-primary" type="submit">Submit demo message ↗</button>
+                <p class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true"></p>
+                <noscript>
+                    <p>JavaScript is needed for the local demo. Please use the email link to contact me.</p>
+                    <style>
+                        #contact-form button[type="submit"] {
+                            display: none
+                        }
+                    </style>
+                </noscript>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="content-width footer-inner"><a class="wordmark" href="index.html"
+                aria-label="Ishtiak Ahmed Chowdhury, home">IAC<span>.</span></a>
+            <p>Ishtiak Ahmed Chowdhury · Cambridge, UK</p><a class="footer-top" href="#main">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+
+</html>
